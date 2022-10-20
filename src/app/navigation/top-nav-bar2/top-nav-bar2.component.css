@@ -1,0 +1,27 @@
+a{
+    font-size: 22px;
+    font-weight: 400;
+    color:black;
+    padding-top:20px;
+    padding-bottom:15px;
+}
+
+nav{
+    padding:0px;
+    text-align:center;
+    font-family: Helvetica,Arial,sans-serif;
+    box-shadow: 2px 2px 8px rgba(100,100,100,0.5);
+}
+
+.hovering{
+    transition:0ms;
+}
+
+.hovering:hover{
+    background-color: rgb(230, 230, 230);   
+}
+
+.grey{
+    background-color: rgb(230, 230, 230);
+}
+

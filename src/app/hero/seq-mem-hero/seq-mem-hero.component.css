@@ -1,0 +1,32 @@
+body{
+    margin-bottom:70px;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 400;
+    color:white;
+}
+
+p{
+    color:white;
+    font-size:24px;
+}
+
+
+button{
+    background-color:rgb(255,209,84);
+    color:black;
+    font-weight:501;
+    font-size:24px;
+    margin-top:15px;
+    height: 75.4px;
+    width: 200.05px;
+}
+
+button:hover{
+    background-color:white;
+    color: black;
+}
+

@@ -1,0 +1,27 @@
+
+
+<app-top-nav-bar>Loading...</app-top-nav-bar>
+
+<app-hero>Loading...</app-hero>
+
+<div class="container-fluid d-flex justify-content-center">
+    <div *ngFor="let x of products">
+
+        <app-card img={{x.img}} cardTitle={{x.cardTitle}} desc={{x.desc}} link = {{x.link}}>Loading...</app-card> 
+
+    </div>  
+</div>
+
+<div class="container-fluid d-flex justify-content-center">
+    <div *ngFor="let y of products2">
+
+        <app-card img={{y.img}} cardTitle={{y.cardTitle}} desc={{y.desc}} link = {{y.link}}>Loading...</app-card> 
+
+    </div>  
+</div>
+
+<div class="container-fluid d-flex justify-content-center">
+    <div *ngFor="let z of products3">
+        <app-horizontal-card img = {{z.img}} cardTitle = {{z.cardTitle}} desc = {{z.desc}} link = {{z.link}}>Loading...</app-horizontal-card>
+    </div>
+</div>
