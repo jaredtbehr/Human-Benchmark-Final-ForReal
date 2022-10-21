@@ -39,7 +39,6 @@ export class HomeLayoutComponent implements OnInit{
           this.products2.push(x);
         }
       })  
-    // This is a github test
     this.productService.getProductsRowThree().subscribe(
       (data: ProductItemModel[])=>{
         for(var x of data)
