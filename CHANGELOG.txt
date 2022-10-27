@@ -1,0 +1,7 @@
+10-27-2022
+    Lab 7: Data Base integration + Begin Change Log
+        Main Features:
+            - Integrated data base functionality
+            - Added services to retrieve data from Fire Base
+            - Data from fire base is sent to the Cards on the home layout
+        
