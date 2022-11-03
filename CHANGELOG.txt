@@ -4,4 +4,11 @@
             - Integrated data base functionality
             - Added services to retrieve data from Fire Base
             - Data from fire base is sent to the Cards on the home layout
-        
+11-3-2022
+    Lab 8: Deployment of WebApp
+        Main Features:
+            - Moved website to firebase database
+            - WebApp can now be viewed on any IP
+        Bugs to be FIxed:
+            - Links now lead to a 404 error page
+            - Most likely linked to href links; however, currently unsure how to fix.
