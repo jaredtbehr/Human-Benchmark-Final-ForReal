@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "human-benchmark-app"
+  },
+  "targets": {
+    "human-benchmark-app": {
+      "hosting": {
+        "hello-world-app": [
+          "human-benchmark-app"
+        ]
+      }
+    }
   }
 }

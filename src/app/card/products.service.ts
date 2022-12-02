@@ -31,4 +31,6 @@ export class ProductService{
     getOneProduct(index:number){
         return this.http.get<ProductItemModel>(this.BaseURL + this.cardsEndPoint + "/" + index + ".json")
     }
+
+
 }

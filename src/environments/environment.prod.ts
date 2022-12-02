@@ -1,4 +1,14 @@
 export const environment = {
+  firebase: {
+    projectId: 'human-benchmark-app',
+    appId: '1:38547506701:web:4acf3cea5c0b0d59fd3744',
+    databaseURL: 'https://human-benchmark-app-default-rtdb.firebaseio.com',
+    storageBucket: 'human-benchmark-app.appspot.com',
+    apiKey: 'AIzaSyD9XCEXVYsfkD3e-DAdw0ZNRuFkLIoEv_M',
+    authDomain: 'human-benchmark-app.firebaseapp.com',
+    messagingSenderId: '38547506701',
+    measurementId: 'G-VDM8RTTGWR',
+  },
   production: true
 };
 

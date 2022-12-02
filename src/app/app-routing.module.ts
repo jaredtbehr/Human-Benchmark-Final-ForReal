@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AimTrainLayoutComponent } from './aim-train-layout/aim-train-layout.component';
 import { DashboardLayoutComponent } from './dashboard-layout/dashboard-layout.component';
 import { HomeLayoutComponent } from './home-layout/home-layout.component';
+import { LoginComponent } from './login/login.component';
 import { NumMemLayoutComponent } from './num-mem-layout/num-mem-layout.component';
 import { RtLayoutComponent } from './rt-layout/rt-layout.component';
 import { SeqMemLayoutComponent } from './seq-mem-layout/seq-mem-layout.component';
@@ -11,28 +12,32 @@ import { SeqMemLayoutComponent } from './seq-mem-layout/seq-mem-layout.component
 const routes: Routes = [  
   {
     path:'',
-    component:HomeLayoutComponent
+    component: HomeLayoutComponent
   },
   {
     path:'Dashboard',
-    component:DashboardLayoutComponent
+    component: DashboardLayoutComponent
   },
   {
     path:'Reaction-Time',
-    component:RtLayoutComponent
+    component: RtLayoutComponent
   },
   {
     path:'Sequence-Memory',
-    component:SeqMemLayoutComponent
+    component: SeqMemLayoutComponent
   },
   {
     path:'Aim-Trainer',
-    component:AimTrainLayoutComponent
+    component: AimTrainLayoutComponent
   },
   {
     path:'Number-Memory',
-    component:NumMemLayoutComponent
-  }
+    component: NumMemLayoutComponent
+  },
+  {
+    path: 'admin',
+    component: LoginComponent
+  },
   
 ];
 
