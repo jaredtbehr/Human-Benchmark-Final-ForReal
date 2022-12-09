@@ -2,21 +2,31 @@
     <div class="row">
         <div class="col-2">
 
-            <form #postForm="ngForm" (ngSubmit)="addUser(postForm.value)">
+            <form #authForm="ngForm" (ngSubmit)="onSubmit(authForm)">
 
                 <div>
-                    <span class="input-group-text">Username</span>
-                    <input type="text" class="form-control" ngModel name="Username">
+                    <span class="input-group-text">Email:</span>
+                    <input type="text" class="form-control" 
+                        ngModel name="username" 
+                        placeholder="Email" 
+                        required email>
                 </div>
 
                 <div>
                     <span class="input-group-text">Password</span>
-                    <input type="text" class="form-control" ngModel name="Password">
+                    <input type="password" class="form-control" 
+                        ngModel name="password" 
+                        placeholder="Password" 
+                        required password minlength="8">
                 </div>
 
-                <button class="btn btn-light" type="submit">
-                    Add user
+                <button class="btn btn-dark m-1" type="submit" [disabled] = "!authForm.valid">
+                    Login
                 </button>
+                <button class="btn btn-dark m-1" type="submit" [disabled] = "!authForm.valid">
+                    Sign Up
+                </button>
+                
 
             </form>
             
