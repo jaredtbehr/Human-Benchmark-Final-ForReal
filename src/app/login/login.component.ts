@@ -8,12 +8,9 @@ import { UserModel } from './user-item.model';
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
-export class LoginComponent implements OnInit {
+export class LoginComponent {
 
   constructor(private loginService:UserService) { }
-
-  ngOnInit(): void {
-  }
 
   public onSubmit(user: NgForm) {
     console.log("User log in / sign up.");
