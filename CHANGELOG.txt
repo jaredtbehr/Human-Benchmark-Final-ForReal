@@ -12,3 +12,5 @@
         Bugs to be FIxed:
             - Links now lead to a 404 error page
             - Most likely linked to href links; however, currently unsure how to fix.
+
+            Please let this fix everything
